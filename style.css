@@ -1,0 +1,217 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600&family=Neuton:wght@300&display=swap" rel="stylesheet"> */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600&family=Neuton:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    margin: 0; 
+    /* color */
+    background-color: black;
+}
+h1,h3,p{
+    color: aliceblue;
+}
+
+
+ /* CLASS DETAILLS */
+ .container-Head{
+    position: relative;
+    max-width: auto;
+    /* display: flex;
+    flex-direction: row;  */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+ }
+ .Sec-One-Logo{
+    /* position: absolute; */
+    z-index: 100;
+    display: inline-block;
+    display: flex;
+    position: relative;
+ }
+
+.nav-bar{
+    /* display: flex; */
+    position: absolute;
+    z-index: 1;
+    
+}
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+}
+.Sec-One-part1{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+.Sec-One-part3{
+    padding-left: 30px;
+    font-size: 20px;
+}
+.Sec-One-part4{
+    padding-left: 40px;
+    font-size: 20px;
+    margin-right: ;
+}
+
+
+.container1{
+    width: auto;
+    height: 260px;
+    color: aliceblue;
+    /* background-color: #bbb; */
+    /* border-style: dotted; */
+    border-bottom : 2px solid white;
+    
+    
+}
+.w3-flex{
+    display: flex;
+    /* align-items: center; */ /*to align item to center*/
+    justify-content: space-around;
+    padding-top: 30px;
+    
+    
+}
+
+.yes1 .yes2 .yes3{
+    width: 100px;
+    height: 100px;
+}
+.Sec-One-Vid{
+    opacity: 0.7;
+}
+.Sec-One-cont1{}
+
+.Sec-One-Center{
+    position: absolute;
+    z-index: 20;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 60px;
+    top:50%;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing:-1px ;
+    margin-left: 210px;
+    margin-right: ;
+}
+.Sec-One-Button1{
+    position: absolute;
+    z-index: 40;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    left: 70px;
+    top: 70%;
+    margin-left: 210px;
+}
+.Sec-One-Ace1{
+    max-width: 100%;
+    height: 500px;
+    color: #fff;
+    
+}
+.Sec-One-Ace2{
+    max-width: 100%;
+    height: 200px;
+    color: #fff;
+    
+}
+
+
+/* 
+////////SECTION 3 //////// */
+
+
+.wrapper{
+    /* width: 1136px; */
+    /* padding: 0px; */
+    /* width: 200px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.Sec-Three-p1{
+    width:392px;
+    padding: 10px;
+    /* margin-top: 20px; */
+
+}
+.Sec-Three-p1 h3{
+  padding-top: 10px;
+}
+
+.wrapper-body{
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.sec-three-p2{
+    /* width: 100%s; */
+}
+.wrapper-text{
+    width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#sec-1-border-bottom{
+    border-bottom: 2px solid white;
+    padding-bottom: 100px;
+}
+.wrapper-text-1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding-left: 76px;
+    padding-top: 20px;
+}
+
+.col-text-fin{
+    position: static;
+    clear: both;
+}
+.col-5-box{
+    display: flex;
+    width: 97%;
+    height: 90px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 80px;
+    justify-content: center;
+    border: 1px solid white;
+    font-size:25px;
+    align-items: center;
+}
+
+.bot-grid{
+}
+.bot-cont-grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+
+}
